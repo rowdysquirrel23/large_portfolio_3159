@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3rem;
     padding: 0 1rem;
-    font-size: 20pt;
+    font-size: 1rem;
   }
   .logo_name{
     display: flex;
