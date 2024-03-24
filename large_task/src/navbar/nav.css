@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 0 1rem;
+    font-size: 20pt;
+  }
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  .nav a {
+    text-decoration: none;
+    color: #262626;
+  }
+  .nav a:active{
+    color: #5C9569;
+  } 
+  .nav a:hover{
+    color: #5C9569;
+  }
