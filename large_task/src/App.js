@@ -1,14 +1,14 @@
-import Navbar from './navbar/navbar';
+import Navbar from './components/navbar/navbar';
 import './App.css';
-import './navbar/nav.css';
+import './components/navbar/nav.css';
 import Home from './pages/home/homePage';
 import Services from './pages/services/servicesPage';
 import Gallery from './pages/gallery/galleryPage';
 import Faqs from './pages/faqs/faqsPage';
 import Contact from './pages/contact/contactPage';
 import { Route, Routes} from 'react-router-dom';
-import Footer from './footer/footer';
-import './footer/footer.css';
+import Footer from './components/footer/footer';
+import './components/footer/footer.css';
 
 function App() {
    

@@ -21,14 +21,14 @@ export default function Home(){
                     we always create customised spaces and bespoke gardens that perfectly matchthe unique specifications of our clients’ outdoor spaces, and align with your vision.
                     </p>
                     {/* <img className='image_3' src={tool_image} alt='Icon of a gardening tool'></img> */}
-                    <p className='second_text'>Over the years, we’ve earned a reputation for being the premier landscaping company in theUAE. 
+                    <p className='second_text'>Over the years, we’ve earned a reputation for being the premier landscaping company in the UAE. 
                     Not only is this due to the high-quality products and services we offer, but our team isalso renowned for the focus on customer care that we provide. 
                     Striving to bring Britain’sfamously high level of customer service to the UAE market, we take the time to get to knowyou and your requirements before delivering a premium service that meets all of your needs.
                     </p>
-                    <p className='third_text'>Not only can we offer the design and installation of a number of soft and hard landscapingelements, but we’ll craft an outdoor living space that looks amazing, while is also functionaland practical for your family to use. 
-                    From outdoor design elements like paving, decking andEasigrass artificial turf to luxurious seating and dedicated barbecue areas, we can do it all.
-                    So wherever you’re based in the UAE, contact Dubai-Landscapes today to find out moreabout our range of landscaping services and bespoke gardens.
-                    Message us on WhatsAppand a member of our team will be in touch
+                    <p className='third_text'>Not only can we offer the design and installation of a number of soft and hard landscaping elements, but we’ll craft an outdoor living space that looks amazing, while is also functional and practical for your family to use. 
+                    From outdoor design elements like paving, decking and Easigrass artificial turf to luxurious seating and dedicated barbecue areas, we can do it all.
+                    So wherever you’re based in the UAE, contact Dubai-Landscapes today to find out more about our range of landscaping services and bespoke gardens.
+                    Message us on WhatsApp and a member of our team will be in touch
                     </p>
                 </section>
             </body>

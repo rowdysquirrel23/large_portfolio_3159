@@ -1,7 +1,7 @@
 import React from "react";
-import facebook from '../assets/facebook.png';
-import instagram from '../assets/instagram.png';
-import linkedin from '../assets/linkedin.png';
+import facebook from '../../assets/facebook.png';
+import instagram from '../../assets/instagram.png';
+import linkedin from '../../assets/linkedin.png';
 
 export default function Footer() {
     return (
