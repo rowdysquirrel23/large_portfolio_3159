@@ -1,0 +1,14 @@
+.Footer{
+    background-color: #5C9569;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20pt;
+    align-items: center;
+    }
+
+.social_media img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+
+}
