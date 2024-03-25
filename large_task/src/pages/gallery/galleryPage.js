@@ -23,8 +23,8 @@ export default function Gallery(){
                 </section>
                 <section className="image_gallery">
                 <img src={gallery1} className="galleryimage1" alt="A garden with a putting green on it"></img>
-                <img src={gallery2} className="galleryimage2" alt="A garden with paving on the grass"></img>
-                <img src={gallery3} className="galleryimage3" alt="A garden with random paving in the grass"></img>
+                <img src={gallery2} className="galleryimage2" alt="A patch of grass infront of a modern building"></img>
+                <img src={gallery3} className="galleryimage3" alt="Palm trees in some grass and paving"></img>
                 <img src={gallery4} className="galleryimage4" alt="A swimming pool in a garden"></img>
                 <img src={gallery5} className="galleryimage5" alt="A gazebo next to a pool and grass"></img>
                 <img src={gallery6} className="galleryimage6" alt="A pool with frsh grass around it"></img>
