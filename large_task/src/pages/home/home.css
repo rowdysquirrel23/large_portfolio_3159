@@ -16,13 +16,13 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; /* Set text color */
+    color: white; 
     font-size: 2.5rem;
 }
 @media (max-width: 768px) {
     .home_hero {
-        font-size: 1.5rem; /* Decrease font size for smaller screens */
-        top: 30%; /* Adjust top position for better placement on mobile */
+        font-size: 1.5rem;
+        top: 30%; 
     }
 }
 h2{

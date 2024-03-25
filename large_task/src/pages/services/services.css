@@ -1,0 +1,41 @@
+
+.hero{
+    background-color: #5C9569;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.services_title{
+    font-size: 2rem;
+}
+.services_content{
+    display: grid;
+    grid-template-columns:repeat(3, minmax(0, 1fr));
+    grid-template-rows: 0.5fr 0.5fr;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-size: 16pt;
+}
+@media (max-width: 768px) {
+    .services_content {
+      grid-template-columns: 1fr; 
+    }
+  }
+.services_content img{
+    width: 100%;
+    height: auto;
+}
+.services_list{
+    list-style-type: none;
+}
+.initial_text{
+    color: #5C9569;
+}
+.third_text{   
+    color: #5C9569;
+}
+.fourth_text{
+    color: #5C9569;
+}
