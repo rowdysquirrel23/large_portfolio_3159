@@ -1,0 +1,15 @@
+.hero_text{
+    font-size: 3rem;
+    background-color: #5C9569;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.gallery_text{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.gallery_description{
+    font-size: 16pt;
+}

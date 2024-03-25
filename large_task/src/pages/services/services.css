@@ -4,7 +4,7 @@
     padding-top: 3%;
     padding-bottom: 3%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 .services_title{
     font-size: 2rem;
@@ -16,6 +16,7 @@
     font-size: 16pt;
     align-items: start;
     gap: 1rem;
+    
 }
 @media (max-width: 768px) {
     .services_content {
@@ -27,6 +28,7 @@
     height: 100%;
     justify-self: top;
     align-self: center;
+    max-height: 415px;
 }
 .services_list{
     text-align: center;
