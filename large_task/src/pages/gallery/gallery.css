@@ -12,4 +12,23 @@
 }
 .gallery_description{
     font-size: 16pt;
+    padding: 3%;
+    text-align: center;
+    color: #5C9569;
+}
+.image_gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .image_gallery {
+      grid-template-columns: 1fr; 
+    }
+  }
+.image_gallery img{
+    width: 100%;
+    height: auto;
+    padding: 1%;
 }

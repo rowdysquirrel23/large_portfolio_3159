@@ -36,7 +36,7 @@ export default function Services(){
                 </p>
                 </section>
                 <section className="grid3">
-                <img src={image3} className="services_image3" alt="A garden trowel icon"></img>
+                <img src={image3} className="services_image3" alt="A path with well kept grass next to it"></img>
                 <p className="services_text3">A British-owned company, whose entire team is English managed, we always use products that have been manufactured using the highest quality materials. 
                 This includes award-winning artificial turf from Easigrass, a product that is 100% British designed as well as child and pet safe.
                 Operating across the entirety of Dubai and Abu Dhabi, whatever landscaping services you require, Dubai-Landscapes is here to help. 
