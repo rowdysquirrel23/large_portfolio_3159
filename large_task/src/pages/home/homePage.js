@@ -1,6 +1,4 @@
 import main_image from '../../assets/2.jpg';
-import tool_image from '../../assets/icon_tool.png';
-import image_2 from '../../assets/6.jpg';
 import './home.css';
 
 export default function Home(){
@@ -12,7 +10,8 @@ export default function Home(){
                 </section>
                 <h2 className='main_title'>Garden Landscaping</h2>
                 <section className='main_content'>
-                    {/* <img className='image_2' src={image_2} alt='Garden with river flowing through and bridge over it'></img> */}
+                  
+                    <h3>About Dubai Landscapes</h3>
                     <p className='initial_text'>Your garden or outdoor space is an extension of your entire home. 
                     A place where you can relax after a long day, entertain friends and family or socialise with loved ones. 
                     At Dubai-Landscapes, we’ve spent a decade in the UAE, crafting bespoke outdoor living spaces that achieve exactly what our clients desire.
@@ -20,11 +19,13 @@ export default function Home(){
                     Providing our customers with leading British design and installation services for a whole host of outdoor livingelements, 
                     we always create customised spaces and bespoke gardens that perfectly matchthe unique specifications of our clients’ outdoor spaces, and align with your vision.
                     </p>
-                    {/* <img className='image_3' src={tool_image} alt='Icon of a gardening tool'></img> */}
+                   
+                    <h3>Why choose us?</h3>
                     <p className='second_text'>Over the years, we’ve earned a reputation for being the premier landscaping company in the UAE. 
                     Not only is this due to the high-quality products and services we offer, but our team isalso renowned for the focus on customer care that we provide. 
                     Striving to bring Britain’sfamously high level of customer service to the UAE market, we take the time to get to knowyou and your requirements before delivering a premium service that meets all of your needs.
                     </p>
+                    <h3>What we offer?</h3>
                     <p className='third_text'>Not only can we offer the design and installation of a number of soft and hard landscaping elements, but we’ll craft an outdoor living space that looks amazing, while is also functional and practical for your family to use. 
                     From outdoor design elements like paving, decking and Easigrass artificial turf to luxurious seating and dedicated barbecue areas, we can do it all.
                     So wherever you’re based in the UAE, contact Dubai-Landscapes today to find out more about our range of landscaping services and bespoke gardens.
