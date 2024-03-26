@@ -32,7 +32,7 @@ export default function Services(){
                 <section className="grid2">
                 <img src={image1} className="services_image1" alt="A garden with paving leading up to a house"></img>
                 <p className="services_text2">Our team can transform every garden or outdoor space, taking on board the unique requirements of our customers.
-                We never take a ‘one size fits all’ approach, instead tailoring our services specifically to the needs of our clients
+                We never take a ‘one size fits all’ approach, instead tailoring our services specifically to the needs of our clients.
                 </p>
                 </section>
                 <section className="grid3">
