@@ -1,0 +1,18 @@
+.contact_hero{ 
+    font-size: 3rem; 
+    text-align: center; 
+    background-color: #5C9569; 
+    padding: 3%; 
+} 
+.contact_title{ 
+    font-size: 2rem; 
+}
+.contact_text{ 
+    text-align: center; 
+    color: #5C9569; 
+    font-size: 16pt; 
+    padding: 3%; 
+    border-bottom: 3px solid #262626; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
