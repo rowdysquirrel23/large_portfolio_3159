@@ -1,5 +1,5 @@
 //Import images and css styling
-import main_image from '../../assets/2.jpg';
+import main_image from '../../assets/2.webp';
 import './home.css';
 
 export default function Home(){

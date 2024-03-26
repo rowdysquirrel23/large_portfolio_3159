@@ -1,8 +1,8 @@
 //Import css and images for the page
 import './services.css';
-import image1 from '../../assets/4.jpg';
-import image2 from '../../assets/9.jpg';
-import image3 from '../../assets/22.jpg';
+import image1 from '../../assets/4.webp';
+import image2 from '../../assets/9.webp';
+import image3 from '../../assets/22.webp';
 
 export default function Services(){
     return  <body className="services_body">

@@ -1,13 +1,13 @@
 //IMport all images and css file
-import gallery1 from '../../assets/gallery_images/7.jpg';
-import gallery2 from '../../assets/gallery_images/1.jpg';
-import gallery3 from '../../assets/gallery_images/12.jpg';
-import gallery4 from '../../assets/gallery_images/13.jpeg';
-import gallery5 from '../../assets/gallery_images/16.jpg';
-import gallery6 from '../../assets/gallery_images/17.jpg';
-import gallery7 from '../../assets/gallery_images/18.jpg';
-import gallery8 from '../../assets/gallery_images/23.jpg';
-import gallery9 from '../../assets/gallery_images/24.jpg';
+import gallery1 from '../../assets/gallery_images/7.webp';
+import gallery2 from '../../assets/gallery_images/1.webp';
+import gallery3 from '../../assets/gallery_images/12.webp';
+import gallery4 from '../../assets/gallery_images/13.webp';
+import gallery5 from '../../assets/gallery_images/16.webp';
+import gallery6 from '../../assets/gallery_images/17.webp';
+import gallery7 from '../../assets/gallery_images/18.webp';
+import gallery8 from '../../assets/gallery_images/23.webp';
+import gallery9 from '../../assets/gallery_images/24.webp';
 import './gallery.css';
 
 

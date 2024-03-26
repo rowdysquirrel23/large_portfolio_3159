@@ -1,5 +1,5 @@
 import {Link, useMatch, useResolvedPath} from 'react-router-dom';
-import logo from '../../assets/dubai_logo.png';
+import logo from '../../assets/dubai_logo.webp';
 
 export default function Navbar() {
     // This nav will feature on each page in the same layout

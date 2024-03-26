@@ -1,9 +1,9 @@
 //Import the images to be used within this page
 import React from "react";
-import facebook from '../../assets/facebook.png';
-import instagram from '../../assets/instagram.png';
-import linkedin from '../../assets/linkedin.png';
-import whatsapp from '../../assets/whatsapp.png';
+import facebook from '../../assets/facebook.webp';
+import instagram from '../../assets/instagram.webp';
+import linkedin from '../../assets/linkedin.webp';
+import whatsapp from '../../assets/whatsapp.webp';
 
 
 export default function Footer() {
