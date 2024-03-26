@@ -1,4 +1,5 @@
 
+/* Styling for the page hero */
 .hero{
     background-color: #5C9569;
     padding-top: 3%;
@@ -9,6 +10,7 @@
 .services_title{
     font-size: 2rem;
 }
+/* display grid layout on desktop version  */
 .services_content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -18,11 +20,13 @@
     gap: 1rem;
     
 }
+/* Media query, change the grid layout to one column */
 @media (max-width: 768px) {
     .services_content {
       grid-template-columns: 1fr; 
     }
   }
+  /* styles the images to make them all the same size */
 .services_content img{
     width: 100%;
     height: 100%;
@@ -34,6 +38,7 @@
     text-align: center;
     font-size: 1.5rem;
 }
+/* remove default ul styling */
 .services_list_items{
     list-style-type: none;
 }

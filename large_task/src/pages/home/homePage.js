@@ -1,16 +1,21 @@
+//Import images and css styling
 import main_image from '../../assets/2.jpg';
 import './home.css';
 
 export default function Home(){
      
     return  <body>
+                {/* Main image  with text over it for the home page */}
                 <section className="main_banner">
                     <img src={main_image} alt='Garden with pool and well maintained grass'></img>
                     <h1 className='home_hero'>UAE’S LEADING LANDSCAPERS</h1>
                 </section>
+                {/* The title of the page */}
                 <h2 className='main_title'>Garden Landscaping</h2>
+                {/* The required text content has been split into 3 secrions, 
+                to avoid bombarding users with text */}
                 <section className='main_content'>
-                  
+                    {/* A header for each section has been applied */}
                     <h3>About Dubai Landscapes</h3>
                     <p className='initial_text'>Your garden or outdoor space is an extension of your entire home. 
                     A place where you can relax after a long day, entertain friends and family or socialise with loved ones. 

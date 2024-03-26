@@ -1,3 +1,4 @@
+/* Styling for the hero of this page */
 .faqs_hero{
     font-size: 3rem;
     background-color: #5C9569;
@@ -8,6 +9,8 @@
 .faqs_title{
     font-size: 2rem;
 }
+
+/* styling to seperate page desrciption text from frequently asked questions */
 .faqs_text{
     text-align: center;
     color: #5C9569;
@@ -26,11 +29,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+/* media query to allow for the site to be mobile compatible, at a certian device width the grid changes layout */
 @media (max-width: 768px) {
     .question_section {
       grid-template-columns: 1fr; 
     }
   }
+  /* styling for the questions and answers */
 .question{
     text-align: center;
     font-size: 1.5rem;

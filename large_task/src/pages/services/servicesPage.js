@@ -1,3 +1,4 @@
+//Import css and images for the page
 import './services.css';
 import image1 from '../../assets/4.jpg';
 import image2 from '../../assets/9.jpg';
@@ -5,8 +6,10 @@ import image3 from '../../assets/22.jpg';
 
 export default function Services(){
     return  <body className="services_body">
+        {/* Hero and page title */}
             <h1 className="hero">FOR YOUR PERSONAL OASIS IN THE UAE</h1>
             <h2 className="services_title">Landscaping Services</h2>
+            {/* A list of the services the company offers */}
             <section className="services_list">
                     <p className="list_title">Our range of landscaping services includes:</p>
                     <ul className="services_list_items">
@@ -19,6 +22,7 @@ export default function Services(){
                         <li>• And much more!</li>
                     </ul>
                 </section>
+                {/* Three sections for content display, each section has an image with text content under */}
             <section className="services_content">
                 <section className="grid1">
                 <img src={image2} className="services_image2" alt="A garden with paving and a gazebo"></img>
@@ -28,7 +32,7 @@ export default function Services(){
                 Our team is full of local experts who have extensive knowledge of the type of plants that will work best for your outdoor space.
                 </p>
                 </section>
-
+                {/* seperate the sections to allow for grid styling */}
                 <section className="grid2">
                 <img src={image1} className="services_image1" alt="A garden with paving leading up to a house"></img>
                 <p className="services_text2">Our team can transform every garden or outdoor space, taking on board the unique requirements of our customers.

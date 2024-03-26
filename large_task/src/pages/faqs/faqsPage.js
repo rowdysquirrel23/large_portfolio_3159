@@ -1,9 +1,12 @@
+//Import styling for this page
 import './faqs.css';
 
 export default function Faqs(){
     return  <body className="faqs_body">
+                {/* Hero and page title */}
                 <h1 className="faqs_hero">ANSWERING YOUR QUESTIONS</h1>
                 <h2 className="faqs_title">Frequently Asked Questions</h2>
+                {/* Put the page desrciption in its own section to seperate from other content */}
                 <section className="faqs_description">
                     <p className="faqs_text">
                     Want to know more about the services we offer? Maybe you have specific questions about our processes that you’d like to learn more about? Or perhaps you just need clarification ona few details. 
@@ -13,7 +16,9 @@ export default function Faqs(){
                     </p>
                 </section>
                 <h3 className="question_section_title">FAQs</h3>
+                {/* Section for the list of requently asked questions and their answers */}
                 <section className="question_section">
+                    {/* Each question and answer are split into their own section to allow for grid to be applyed in css */}
                     <section className="grid1">
                         <p className="question">How can I request a quote for landscaping services?</p>
                         <p className="answer">You can easily request a quote by contacting us through our website or giving us a call. 
@@ -30,6 +35,7 @@ export default function Faqs(){
                         <p className="answer">Absolutely, we have a portfolio of our past projects and can provide references upon request. You can also check out our website or social media pages for photos and testimonials from satisfied clients.
                         </p>
                     </section>
+                    {/* On desktop, the questions will appear in a 3x2 grid format */}
                     <section className="grid4">
                         <p className="question">How often should I water my newly landscaped garden?</p>
                         <p className="answer">The watering frequency for newly landscaped gardens depends on factors such as the type of plants, soil conditions, and weather. 

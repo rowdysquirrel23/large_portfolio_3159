@@ -1,3 +1,4 @@
+/* styling for the nav to be consistent on each page */
 .nav{
     display: flex;
     flex-direction: column; 
@@ -9,10 +10,12 @@
     display: flex;
     align-items: center;
   }
+  /* Scale the logo */
   .nav img{
     max-width: 100px;
     max-height: 100px;
   }
+  /* remove basic ul styling */
   .nav ul {
     list-style: none;
     display: flex;
@@ -22,9 +25,11 @@
     text-decoration: none;
     color: #262626;
   }
+  /* The active page nav link will display as green */
   .nav a:active{
     color: #5C9569;
   } 
+  /* A nav link will turn green once hovered over */
   .nav a:hover{
     color: #5C9569;
   }

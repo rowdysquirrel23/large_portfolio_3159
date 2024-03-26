@@ -1,3 +1,4 @@
+/* Styling for the footer, this will be the same on each page */
 .Footer{
     background-color: #5C9569;
     display: flex;
@@ -5,7 +6,7 @@
     font-size: 20pt;
     align-items: center;
     }
-
+/* Setting footer images to be the same size for consistent design */
 .social_media img{
     width: 40px;
     height: 40px;

@@ -1,3 +1,4 @@
+/* Styling for the hero on this page */
 .contact_hero{ 
     font-size: 3rem; 
     text-align: center; 
@@ -7,6 +8,7 @@
 .contact_title{ 
     font-size: 2rem; 
 }
+/* Center the main text and seperate it from other sections with padding and a border */
 .contact_text{ 
     text-align: center; 
     color: #5C9569; 
@@ -15,4 +17,49 @@
     border-bottom: 3px solid #262626; 
     margin-left: 5%; 
     margin-right: 5%; 
+}
+/* styling for the whole form section */
+.contact_form_area {
+    padding: 3%;
+    background-color: #f9f9f9;
+}
+/* The form cannot exceed 400 pixels */
+.contact_form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact_form label {
+    display: block;
+    margin-bottom: 5px;
+}
+/* Styling the input for each aspect of the form */
+.contact_form input[type="text"],
+.contact_form input[type="email"],
+.contact_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.contact_form textarea {
+    height: 150px;
+}
+/* Styling for the submit button on the form */
+.contact_form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5C9569;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Button changes shade of green on hover */
+.contact_form button[type="submit"]:hover {
+    background-color: #3b704d;
 }

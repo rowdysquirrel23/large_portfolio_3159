@@ -1,6 +1,7 @@
 body{
     font-family: Tahoma;
 }
+/* Fit the image 100 accross the width of the screen */
 .main_banner{
     width: 100%;
     height: auto;
@@ -11,6 +12,7 @@ body{
     width: 100%;
     height: auto
 }
+/* Position the hero in the middle of the main banner image */
 .home_hero{
     position: absolute;
     top: 50%;
@@ -19,6 +21,7 @@ body{
     color: white; 
     font-size: 2.5rem;
 }
+/* media query to adjust the text when device size changes */
 @media (max-width: 768px) {
     .home_hero {
         font-size: 1.5rem;
@@ -33,6 +36,7 @@ h3{
     font-size: 2rem;
     color: #5C9569;
 }
+/* Styling of the main text */
 .main_content{
     display: flex;
     flex-direction: column;

@@ -1,3 +1,4 @@
+/* Styling for the gallery herp, title and text */
 .hero_text{
     font-size: 3rem;
     background-color: #5C9569;
@@ -16,17 +17,21 @@
     text-align: center;
     color: #5C9569;
 }
+/* Grid layout for desktop display */
 .image_gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
 }
+/* media query, once device width gets to a certian size, 
+only one image will be displayed in the columns at a time */
 @media (max-width: 768px) {
     .image_gallery {
       grid-template-columns: 1fr; 
     }
   }
+  /* styling for the gallery images */
 .image_gallery img{
     width: 100%;
     height: auto;
