@@ -16,10 +16,18 @@ export default function Footer() {
            {/* Contained within a section so all can be styled at the same time */}
             <section className="social_media">
                  {/* Social media icon images with alt tags to improve accessibility */}
+                <a href="https://www.facebook.com/">
                 <img src={facebook} alt="Facebook Icon"></img>
-                <img src={instagram} alt="Instagram Icon"></img>
-                <img src={linkedin} alt="LinkedIn Icon"></img>
-                <img src={whatsapp} alt="WhatsApp Icon"></img>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src={instagram} alt="Instagram Icon"></img>
+                </a>
+                <a href="https://www.linkedin.com/">
+                    <img src={linkedin} alt="LinkedIn Icon"></img>
+                </a>
+                <a href="https://www.whatsapp.com/">
+                    <img src={whatsapp} alt="WhatsApp Icon"></img>
+                </a>
             </section>
         </section>
     )

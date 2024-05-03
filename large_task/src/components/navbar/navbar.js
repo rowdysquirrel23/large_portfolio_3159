@@ -3,7 +3,8 @@ import logo from '../../assets/dubai_logo.webp';
 
 export default function Navbar() {
     // This nav will feature on each page in the same layout
-    return (<nav className="nav">
+    return (
+    <nav className="nav">
         {/* Have the company logo and name with the Nav to increase brand recognition */}
         <div className='logo_name'>
         <img src={logo} alt='Logo  which is a blend of green and white that features simple depictions of high rise buildings'></img>
